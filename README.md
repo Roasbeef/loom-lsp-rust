@@ -47,6 +47,10 @@ Ask for a qualified name as the code spells it, without a leading
 `crate::`: `util::greet`. The profile's `hint` tells the model the same.
 A `loom.toml` table named `rust` replaces this profile whole.
 
+[docs/how-this-profile-works.md](docs/how-this-profile-works.md) walks
+through `extension.toml` key by key, what the checks prove, and what the
+CI does.
+
 ## Maintenance
 
 This repository is the maintained `lsp_rust` profile. Its CI
